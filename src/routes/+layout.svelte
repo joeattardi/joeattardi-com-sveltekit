@@ -7,7 +7,7 @@
   <Header />
 
   <div class="bg-slate-50 flex-grow">
-    <main class="max-w-screen-lg m-auto">
+    <main class="max-w-screen-lg m-auto p-4">
       <slot></slot>
     </main>
   </div>
