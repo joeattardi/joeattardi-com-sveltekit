@@ -4,9 +4,9 @@
 
 <div class="p-4 flex flex-col items-center md:items-start md:flex-row gap-4">
   <img 
-    src="/joe.png" 
+    src="/undraw_programming_re_kg9v.svg" 
     alt="Joe Attardi"
-    class="w-32 rounded-full border-8 bg-slate-100 border-slate-200 md:w-64"
+    class="w-48 md:w-64"
   >
   <div class="flex flex-col gap-2">
     <h2 class="text-center text-4xl md:text-left md:text-6xl font-bold"><span class="text-sky-500">Joe</span> <span class="text-blue-500">Attardi</span></h2>
