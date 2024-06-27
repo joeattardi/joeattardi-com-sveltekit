@@ -1,4 +1,5 @@
 <script>
+    import { afterNavigate } from '$app/navigation';
     import List from 'phosphor-svelte/lib/List';
     import X from 'phosphor-svelte/lib/X';
     import NavLink from './NavLink.svelte';
@@ -8,6 +9,10 @@
     function toggleNav() {
       expanded = !expanded;
     }
+
+    afterNavigate(() => {
+      expanded = false;
+    });
 </script>
 
 <nav>
