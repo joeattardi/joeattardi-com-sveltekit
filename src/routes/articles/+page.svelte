@@ -4,6 +4,10 @@
   export let data;
 </script>
 
+<svelte:head>
+  <title>Articles | Joe Attardi</title>
+</svelte:head>
+
 <PageTitle>Articles</PageTitle>
 
 <h3 class="text-3xl">LogRocket Articles</h3>
