@@ -2,8 +2,6 @@
   import PageTitle from '$lib/components/PageTitle.svelte';
 
   export let data;
-
-  console.log(data);
 </script>
 
 <PageTitle>Articles</PageTitle>
@@ -12,7 +10,7 @@
 
 <section class="flex flex-col gap-4 mt-4">
   {#each data.logrocket as item}
-    <article>
+    <article class="border border-slate-300 p-4 rounded">
       <h4 class="text-xl"><a href={item.href} class="text-blue-600">{item.title}</a></h4>
       <p>{item.summary}</p>
     </article>
@@ -23,7 +21,7 @@
 
 <section class="flex flex-col gap-4 mt-4">
   {#each data.freecodecamp as item}
-    <article>
+    <article class="border border-slate-300 p-4 rounded">
       <h4 class="text-xl"><a href={item.href} class="text-blue-600">{item.title}</a></h4>
       <p>{item.summary}</p>
     </article>
