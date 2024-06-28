@@ -22,8 +22,8 @@
     class:translate-x-full={!expanded}
   >
     <NavLink href="/books">Books</NavLink>
+    <NavLink href="/articles">Articles</NavLink>
     <!-- <NavLink href="/projects">Projects</NavLink> -->
-    <!-- <NavLink href="/articles">Articles</NavLink> -->
     <NavLink href="https://joeattardi.dev">Blog</NavLink>
   </ul>
 </nav>
