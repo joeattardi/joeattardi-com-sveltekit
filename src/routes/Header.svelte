@@ -2,7 +2,7 @@
     import Nav from './Nav.svelte';
 </script>
 
-<header class="p-4 bg-sky-100">
+<header class="p-4 bg-sky-100 dark:bg-sky-900">
   <div class="flex items-center max-w-screen-lg m-auto justify-between">
     <h1 class="text-2xl">
       <a href="/" class="flex items-center gap-2 font-bold">

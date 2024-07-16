@@ -14,8 +14,8 @@
 
 <section class="flex flex-col gap-4 mt-4">
   {#each data.logrocket as item}
-    <article class="border border-slate-300 p-4 rounded">
-      <h4 class="text-xl"><a href={item.href} class="text-blue-600">{item.title}</a></h4>
+    <article class="border border-slate-300 dark:border-slate-800 p-4 rounded">
+      <h4 class="text-xl"><a href={item.href} class="text-blue-600 dark:text-blue-300">{item.title}</a></h4>
       <p>{item.summary}</p>
     </article>
   {/each}
@@ -25,8 +25,8 @@
 
 <section class="flex flex-col gap-4 mt-4">
   {#each data.freecodecamp as item}
-    <article class="border border-slate-300 p-4 rounded">
-      <h4 class="text-xl"><a href={item.href} class="text-blue-600">{item.title}</a></h4>
+    <article class="border border-slate-300 dark:border-slate-800 p-4 rounded">
+      <h4 class="text-xl"><a href={item.href} class="text-blue-600 dark:text-blue-300">{item.title}</a></h4>
       <p>{item.summary}</p>
     </article>
   {/each}

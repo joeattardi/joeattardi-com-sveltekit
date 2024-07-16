@@ -12,9 +12,9 @@
 
 <div class="p-4 flex flex-col items-center md:items-start md:flex-row gap-4">
   <img 
-    src="/undraw_programming_re_kg9v.svg" 
+    src="/joe.jpeg" 
     alt="Joe Attardi"
-    class="w-48 md:w-64"
+    class="w-48 md:w-64 rounded-full border-8 dark:border-slate-800 border-slate-300"
   >
   <div class="flex flex-col gap-2">
     <h2 class="text-center text-4xl md:text-left md:text-6xl font-bold"><span class="text-sky-500">Joe</span> <span class="text-blue-500">Attardi</span></h2>

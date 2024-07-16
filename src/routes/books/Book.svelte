@@ -7,7 +7,7 @@
   export let amazonHref;
 </script>
 
-<div class="max-w-md flex flex-col gap-4 bg-slate-200 rounded p-4">
+<div class="max-w-md flex flex-col gap-4 bg-slate-200 dark:bg-slate-900 rounded p-4">
   <a href={href} class="overflow-hidden">
     <img
       class="transition-transform duration-500 hover:-rotate- hover:scale-105"
@@ -15,9 +15,9 @@
       alt={title}
     >
   </a>
-  <a href={href}><h3 class="text-2xl font-bold text-slate-700">{title}</h3></a>
+  <a href={href}><h3 class="text-2xl font-bold text-slate-700 dark:text-slate-200">{title}</h3></a>
   <div>{publisher}, {year}</div>
-  <a class="bg-amber-500 px-2 py-1 flex items-center gap-2 rounded self-start text-center" href={amazonHref}>
+  <a class="bg-amber-700 px-2 py-1 flex items-center gap-2 rounded self-start text-center text-stone-200" href={amazonHref}>
     Get {title} on Amazon
   </a>
   <p><slot></slot></p>
