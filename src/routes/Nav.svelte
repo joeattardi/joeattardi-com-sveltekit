@@ -23,7 +23,7 @@
   >
     <NavLink href="/books">Books</NavLink>
     <NavLink href="/articles">Articles</NavLink>
-    <!-- <NavLink href="/projects">Projects</NavLink> -->
+    <NavLink href="/projects">Projects</NavLink>
     <NavLink href="https://joeattardi.dev">Blog</NavLink>
   </ul>
 </nav>
