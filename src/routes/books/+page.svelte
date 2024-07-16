@@ -11,7 +11,7 @@
   <title>Books | Joe Attardi</title>
 </svelte:head>
 
-<PageTitle>Books</PageTitle>
+<PageTitle subtitle="Books by Joe Attardi">Books</PageTitle>
 
 <div class="flex gap-8 flex-wrap">
   <Book

@@ -1,8 +1,6 @@
 <script>
   import PageTitle from '$lib/components/PageTitle.svelte';
   import Project from './Project.svelte';
-
-  import promisePoller from './promise-poller.png';
 </script>
 
 <svelte:head>

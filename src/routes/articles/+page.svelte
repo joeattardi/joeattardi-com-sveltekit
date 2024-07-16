@@ -8,7 +8,7 @@
   <title>Articles | Joe Attardi</title>
 </svelte:head>
 
-<PageTitle>Articles</PageTitle>
+<PageTitle subtitle="Articles by Joe Attardi">Articles</PageTitle>
 
 <h3 class="text-3xl">LogRocket Articles</h3>
 
